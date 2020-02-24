@@ -231,6 +231,22 @@ footer nav a {
   text-decoration: none;
 }
 
+nav a {
+  margin: 0 30px;
+}
+
+.box1 {
+  background-color: teal;
+}
+
+.box2 {
+  background-color: gold;
+}
+
+.box3 {
+  background-color: cadetblue;
+}
+
 #home {
   /* border: 1px solid blue; */
   width: 100%;
