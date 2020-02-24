@@ -1,5 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 800px;
+}
 .container-about-page {
   width: 800px;
   display: flex;
   flex-direction: column;
+}
+.head-img {
+  width: 98%;
+  margin: 10px;
+  border: 20px outset;
 }
