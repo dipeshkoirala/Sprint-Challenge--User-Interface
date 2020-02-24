@@ -242,6 +242,8 @@ footer nav a {
 
 nav a {
   margin: 0 30px;
+  color: black;
+  text-decoration: none;
 }
 
 .box1 {
