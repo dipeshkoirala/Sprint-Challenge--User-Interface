@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+/* .container-about-page {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+} */
+.head-img {
+  width: 100%;
+  margin: 10px;
+  border: 10px outset;
+}
+.childOne,
+.childThree {
+  /* background-color: blue; */
+  display: flex;
+  width: 100%;
+}
+.childTwo,
+.childFour {
+  /* background-color: red; */
+  display: flex;
+  width: 100%;
+}
+.childOne div,
+.childTwo div,
+.childThree div,
+.childFour div {
+  /* border: 1px solid yellow; */
+  width: 94%;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.5;
+}
+.childOne,
+.childTwo,
+.childThree,
+.childFour {
+  border-bottom: 1px dashed black;
+}
+.parent {
+  font-size: 18px;
+}
+
+.parent div {
+  margin: 3px;
+}
+.A,
+.B {
+  width: 100%;
+  display: flex;
+  margin: 5%;
+}
+
+.top {
+  line-height: 1.5;
+  /* font-weight: bolder; */
+  text-align: justify;
+  /* font-size: 18px; */
+  font-size: 18px;
+}
+.button {
+  height: 30px;
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 12px;
+  border: 2px red inset;
+}
+.button:hover {
+  background: violet;
+  border: 4px blue outset;
+  color: black;
+}
+
+.dk {
+  font-weight: bold;
+}
+.b {
+  line-height: 1.5;
+  text-align: justify;
+}
